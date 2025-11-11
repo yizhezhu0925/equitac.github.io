@@ -217,46 +217,6 @@
       </div>
     </div>
 
-    <!-- Optional Interpolation section -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Orientation Interpolation</h2>
-        <h3 class="title is-4">Interpolating states</h3>
-        <div class="content has-text-justified">
-          <p>
-            Slide between two tactile states to visualize how residual corrections evolve.
-          </p>
-        </div>
-        <div class="columns is-vcentered interpolation-panel">
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg" class="interpolation-image" alt="Start frame" />
-            <p>Start</p>
-          </div>
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper">Loading...</div>
-            <input class="slider is-fullwidth is-large is-info" id="interpolation-slider"
-                   step="1" min="0" max="100" value="0" type="range" />
-          </div>
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_end.jpg" class="interpolation-image" alt="End frame" />
-            <p class="is-bold">End</p>
-          </div>
-        </div>
-        <br/>
-        <h3 class="title is-4">Re-rendering</h3>
-        <div class="content has-text-justified">
-          <p>
-            Re-run action chunks with updated residuals to stabilize trajectories under disturbances.
-          </p>
-        </div>
-        <div class="content has-text-centered">
-          <video id="replay-video" controls muted preload playsinline width="75%">
-            <source src="./static/videos/replay.mp4" type="video/mp4" />
-          </video>
-        </div>
-      </div>
-    </div>
-
 <!-- ============== BIBTEX ============== -->
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
